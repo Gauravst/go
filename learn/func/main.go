@@ -1,6 +1,6 @@
 package main
 
-func addTwoNumber(x, y) {
+func addTwoNumber(x int, y int) int {
 	return x + y
 }
 
