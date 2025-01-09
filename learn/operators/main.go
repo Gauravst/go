@@ -22,9 +22,11 @@ func main() {
 	fmt.Println("modules", x%y)
 
 	// increment
-	fmt.Println("increment", x++)
+	x++
+	fmt.Println("increment", x)
 
 	// decrement
-	fmt.Println("decrement", x--)
+	y--
+	fmt.Println("decrement", x)
 
 }
